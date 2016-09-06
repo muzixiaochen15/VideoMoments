@@ -102,10 +102,10 @@
     return YES;
 }
 
-- (NSUInteger)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskAllButUpsideDown;
-}
+//- (NSUInteger)supportedInterfaceOrientations
+//{
+//    return UIInterfaceOrientationMaskAllButUpsideDown;
+//}NS_AVAILABLE_IOS(6_0) __TVOS_PROHIBITED
 
 
 #pragma mark - Setup

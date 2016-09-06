@@ -175,9 +175,9 @@
     return self.canRotate;
 }
 
-- (NSUInteger) supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskAll;
-}
+//- (NSUInteger) supportedInterfaceOrientations
+//{
+//    return UIInterfaceOrientationMaskAll;
+//}
 
 @end

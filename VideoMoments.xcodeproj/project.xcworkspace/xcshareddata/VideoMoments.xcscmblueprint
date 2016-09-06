@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7E84185E2A6B8152F332DD5133BEB053195CC773",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7E84185E2A6B8152F332DD5133BEB053195CC773" : 0,
+    "4F546DA6EA3315917BA1C2C223FCC643323730C1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "01F9467F-C8ED-4117-9B18-5A670EF483D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7E84185E2A6B8152F332DD5133BEB053195CC773" : "VideoMoments(1.2)",
+    "4F546DA6EA3315917BA1C2C223FCC643323730C1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VideoMoments",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VideoMoments.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/muzixiaochen15\/MyBatisGen.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F546DA6EA3315917BA1C2C223FCC643323730C1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xujingzhou\/VideoMoments.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E84185E2A6B8152F332DD5133BEB053195CC773"
+    }
+  ]
+}

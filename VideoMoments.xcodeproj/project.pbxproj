@@ -169,6 +169,7 @@
 		D791B0001B743EFC003B5605 /* ColorSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D791AFFF1B743EFC003B5605 /* ColorSelectView.m */; };
 		D7A495BA1B5BCC3200421FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A495B91B5BCC3200421FAC /* main.m */; };
 		D7A495BD1B5BCC3200421FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A495BC1B5BCC3200421FAC /* AppDelegate.m */; };
+        D7A495C01B5BCC3200421FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A495BF1B5BCC3200421FAC /* ViewController.m */; };
 		D7A495C51B5BCC3200421FAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A495C41B5BCC3200421FAC /* Images.xcassets */; };
 		D7A495DE1B5BCF5500421FAC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A495DD1B5BCF5500421FAC /* Accelerate.framework */; };
 		D7A495E01B5BCF5B00421FAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A495DF1B5BCF5B00421FAC /* UIKit.framework */; };
@@ -1398,6 +1399,7 @@
 				D77A94EC1B6F8EA300B97104 /* CTAssetsViewControllerTransition.m in Sources */,
 				D791AFF51B74381D003B5605 /* PuzzleData.m in Sources */,
 				D77A94E11B6F8EA300B97104 /* ALAssetsGroup+isEqual.m in Sources */,
+                D7A495C01B5BCC3200421FAC /* ViewController.m in Sources */,
 				D77A94E21B6F8EA300B97104 /* CTAssetItemViewController.m in Sources */,
 				D77A94E91B6F8EA300B97104 /* CTAssetsSupplementaryView.m in Sources */,
 				D7A496781B5BD1B600421FAC /* UIAlertView+Blocks.m in Sources */,
@@ -1506,6 +1508,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1552,6 +1555,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1578,6 +1582,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoMoments/VideoMoments-Prefix.pch";
 				INFOPLIST_FILE = VideoMoments/Info.plist;
@@ -1587,6 +1592,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -1607,6 +1613,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
