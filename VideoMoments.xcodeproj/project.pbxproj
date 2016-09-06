@@ -169,7 +169,6 @@
 		D791B0001B743EFC003B5605 /* ColorSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D791AFFF1B743EFC003B5605 /* ColorSelectView.m */; };
 		D7A495BA1B5BCC3200421FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A495B91B5BCC3200421FAC /* main.m */; };
 		D7A495BD1B5BCC3200421FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A495BC1B5BCC3200421FAC /* AppDelegate.m */; };
-		D7A495C01B5BCC3200421FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A495BF1B5BCC3200421FAC /* ViewController.m */; };
 		D7A495C51B5BCC3200421FAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A495C41B5BCC3200421FAC /* Images.xcassets */; };
 		D7A495DE1B5BCF5500421FAC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A495DD1B5BCF5500421FAC /* Accelerate.framework */; };
 		D7A495E01B5BCF5B00421FAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A495DF1B5BCF5B00421FAC /* UIKit.framework */; };
@@ -1160,7 +1159,7 @@
 				TargetAttributes = {
 					D7A495B31B5BCC3200421FAC = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = E88923T289;
+						DevelopmentTeam = HKV69Q528P;
 					};
 				};
 			};
@@ -1399,7 +1398,6 @@
 				D77A94EC1B6F8EA300B97104 /* CTAssetsViewControllerTransition.m in Sources */,
 				D791AFF51B74381D003B5605 /* PuzzleData.m in Sources */,
 				D77A94E11B6F8EA300B97104 /* ALAssetsGroup+isEqual.m in Sources */,
-				D7A495C01B5BCC3200421FAC /* ViewController.m in Sources */,
 				D77A94E21B6F8EA300B97104 /* CTAssetItemViewController.m in Sources */,
 				D77A94E91B6F8EA300B97104 /* CTAssetsSupplementaryView.m in Sources */,
 				D7A496781B5BD1B600421FAC /* UIAlertView+Blocks.m in Sources */,
@@ -1504,7 +1502,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JINGZHOU XU (6726FSYBSS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1527,7 +1526,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "9ea3a819-88f4-4522-b6b7-8df946722bee";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1549,7 +1548,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JINGZHOU XU (E88923T289)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1564,7 +1564,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "073ee01a-c8cb-4800-bf2c-0e5e3ca0d030";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1576,15 +1576,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JINGZHOU XU (6726FSYBSS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoMoments/VideoMoments-Prefix.pch";
 				INFOPLIST_FILE = VideoMoments/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johnnyxu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eqxiu.eqxiuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9ea3a819-88f4-4522-b6b7-8df946722bee";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1595,15 +1596,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JINGZHOU XU (E88923T289)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoMoments/VideoMoments-Prefix.pch";
 				INFOPLIST_FILE = VideoMoments/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johnnyxu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eqxiu.eqxiuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "073ee01a-c8cb-4800-bf2c-0e5e3ca0d030";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
