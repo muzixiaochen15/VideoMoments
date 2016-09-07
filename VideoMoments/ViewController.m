@@ -30,6 +30,7 @@
 #define MinVideoAssets 2
 #define BottomViewHeight 50.0
 #define SelectViewHeight 50.0
+#define kTopBarColor       0x31344b
 
 @interface ViewController ()<CTAssetsPickerControllerDelegate, UIPopoverControllerDelegate, SelectViewDelegate, ScrollSelectViewDelegate, ColorScrollSelectViewDelegate, PBJVideoPlayerControllerDelegate>
 {
@@ -491,7 +492,7 @@
     }
     
     _puzzleView = [[SelectView alloc] initWithFrameFromPuzzle:_bottomControlView.bounds picCount:[self.assets count]];
-    [_puzzleView setBackgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.6]];
+    [_puzzleView setBackgroundColor:UIColorFromRGB(kTopBarColor)];
     _puzzleView.delegateSelect = self;
     [_bottomControlView addSubview:_puzzleView];
     _puzzleView.hidden = YES;
@@ -506,7 +507,7 @@
     }
     
     _gifView = [[ScrollSelectView alloc] initWithFrameFromGif:_bottomControlView.bounds];
-    [_gifView setBackgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.6]];
+    [_gifView setBackgroundColor:UIColorFromRGB(kTopBarColor)];
     _gifView.delegateSelect = self;
     [_bottomControlView addSubview:_gifView];
     _gifView.hidden = YES;
@@ -521,7 +522,7 @@
     }
     
     _borderView = [[ScrollSelectView alloc] initWithFrameFromBorder:_bottomControlView.bounds];
-    [_borderView setBackgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.6]];
+    [_borderView setBackgroundColor:UIColorFromRGB(kTopBarColor)];
     _borderView.delegateSelect = self;
     [_bottomControlView addSubview:_borderView];
     _borderView.hidden = YES;
@@ -536,7 +537,7 @@
     }
     
     _colorView = [[ColorSelectView alloc] initWithFrameFromColor:_bottomControlView.bounds];
-    [_colorView setBackgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.6]];
+    [_colorView setBackgroundColor:UIColorFromRGB(kTopBarColor)];
     _colorView.delegateSelect = self;
     [_bottomControlView addSubview:_colorView];
     _colorView.hidden = YES;
@@ -553,7 +554,7 @@
     [self.view addSubview:_bottomControlView];
     
     self.bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.bounds) - BottomViewHeight, CGRectGetWidth(self.view.bounds), BottomViewHeight)];
-    [_bottomView setBackgroundColor:UIColorFromRGB(0x005831)];
+    [_bottomView setBackgroundColor:UIColorFromRGB(kTopBarColor)];
     [self.view addSubview:_bottomView];
     
     _puzzleButton = [[UIButton alloc] init];

@@ -14,6 +14,8 @@
 
 @end
 
+#define kTopBarColor       0x31344b
+
 @implementation AppDelegate
 
 
@@ -26,8 +28,7 @@
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithNavigationBarClass:[DSNavigationBar class] toolbarClass:nil];
     
-//    UIColor *color = [UIColor colorWithRed:(18/255.0) green:(218/255.0) blue:(218/255) alpha:0.8f];
-    [[DSNavigationBar appearance] setNavigationBarWithColor:UIColorFromRGB(0x005831)];
+    [[DSNavigationBar appearance] setNavigationBarWithColor:UIColorFromRGB(kTopBarColor)];//UIColorFromRGB(0x005831)
     
     ViewController *mainVC =  [[ViewController alloc] init];
     [navigationController setViewControllers:@[mainVC]];

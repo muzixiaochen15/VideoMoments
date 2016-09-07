@@ -17,6 +17,7 @@ static NSMutableDictionary *filenameDic;
 @property (nonatomic, strong) UIButton *selectedBtn;
 
 @end
+#define kTopBarColor       0x31344b
 
 @implementation SelectView
 
@@ -37,7 +38,7 @@ static NSMutableDictionary *filenameDic;
 - (void)initResourceFormPuzzle
 {
     _selectView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, ContentHeight)];
-    [_selectView setBackgroundColor:[[UIColor grayColor] colorWithAlphaComponent:0.6]];
+    [_selectView setBackgroundColor:UIColorFromRGB(kTopBarColor)];
     _selectView.showsHorizontalScrollIndicator = NO;
     _selectView.showsVerticalScrollIndicator = NO;
     [self addSubview:_selectView];

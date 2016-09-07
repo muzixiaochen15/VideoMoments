@@ -10,6 +10,7 @@
 #import "ColorData.h"
 
 #define ContentHeight 50
+#define kTopBarColor       0x31344b
 
 @interface ColorSelectView()
 
@@ -35,7 +36,7 @@
 - (void)initResourceFormColor
 {
     _ContentView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), ContentHeight)];
-    [_ContentView setBackgroundColor:[[UIColor grayColor] colorWithAlphaComponent:0.6]];
+    [_ContentView setBackgroundColor:UIColorFromRGB(kTopBarColor)];
     _ContentView.showsHorizontalScrollIndicator = NO;
     _ContentView.showsVerticalScrollIndicator = NO;
     [self addSubview:_ContentView];
